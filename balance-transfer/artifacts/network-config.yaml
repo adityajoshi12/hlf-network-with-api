@@ -1,0 +1,237 @@
+---
+name: "balance-transfer"
+type: "hlfv1"
+description: "Balance Transfer Network"
+version: "1.0"
+channels:
+  # name of the channel
+  mychannel:
+    orderers:
+      - orderer.example.com
+    peers:
+      peer0.org1.example.com:
+        endorsingPeer: true
+        chaincodeQuery: true
+        ledgerQuery: true
+        eventSource: true
+
+      peer1.org1.example.com:
+        endorsingPeer: false
+        chaincodeQuery: true
+        ledgerQuery: true
+        eventSource: false
+
+      peer0.org2.example.com:
+        endorsingPeer: true
+        chaincodeQuery: true
+        ledgerQuery: true
+        eventSource: true
+
+      peer1.org2.example.com:
+        endorsingPeer: false
+        chaincodeQuery: true
+        ledgerQuery: true
+        eventSource: false
+
+    chaincodes:
+      - mycc:v0
+
+organizations:
+  Org1:
+    mspid: Org1MSP
+
+    peers:
+      - peer0.org1.example.com
+      - peer1.org1.example.com
+    certificateAuthorities:
+      - ca-org1
+    adminPrivateKey:
+      path: artifacts/channel/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore/priv_sk
+    signedCert:
+      path: artifacts/channel/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/signcerts/Admin@org1.example.com-cert.pem
+
+  Org2:
+    mspid: Org2MSP
+    peers:
+      - peer0.org2.example.com
+      - peer1.org2.example.com
+    certificateAuthorities:
+      - ca-org2
+    adminPrivateKey:
+      path: artifacts/channel/crypto-config/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp/keystore/priv_sk
+    signedCert:
+      path: artifacts/channel/crypto-config/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp/signcerts/Admin@org2.example.com-cert.pem
+
+orderers:
+  orderer.example.com:
+    url: grpcs://localhost:7050
+
+    grpcOptions:
+      ssl-target-name-override: orderer.example.com
+
+    tlsCACerts:
+      pem: |
+        -----BEGIN CERTIFICATE-----
+        MIICQjCCAemgAwIBAgIQDSpqdUNcPDNUQrYs9GyLhTAKBggqhkjOPQQDAjBsMQsw
+        CQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNU2FuIEZy
+        YW5jaXNjbzEUMBIGA1UEChMLZXhhbXBsZS5jb20xGjAYBgNVBAMTEXRsc2NhLmV4
+        YW1wbGUuY29tMB4XDTIwMTExNDExNTMwMFoXDTMwMTExMjExNTMwMFowbDELMAkG
+        A1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBGcmFu
+        Y2lzY28xFDASBgNVBAoTC2V4YW1wbGUuY29tMRowGAYDVQQDExF0bHNjYS5leGFt
+        cGxlLmNvbTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABMid0VZW557e7tRbZZL4
+        m48dlzI9CNR0EtGQfIuGHHIT4pN46RgksOj15VmHLOpsVR+I77LsgV5hxEicmkms
+        99CjbTBrMA4GA1UdDwEB/wQEAwIBpjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYB
+        BQUHAwEwDwYDVR0TAQH/BAUwAwEB/zApBgNVHQ4EIgQg7oWy1bvIdE5grx4sATGc
+        HBJBXBETWg7BMH+panlNS1kwCgYIKoZIzj0EAwIDRwAwRAIgXbySq30IJIylF9Kk
+        RQI7094NiynSUXhrlK/2k2fl9SYCIDrdNpFnvo+E1HmvFiezlwsRSzzDxk8HPZ0U
+        HMKjfpjv
+        -----END CERTIFICATE-----
+
+peers:
+  peer0.org1.example.com:
+    url: grpcs://localhost:7051
+    tlsCACerts:
+      pem: |
+        -----BEGIN CERTIFICATE-----
+        MIICWDCCAf6gAwIBAgIRAMKwdRHf6fLJNbuMGI6d2AEwCgYIKoZIzj0EAwIwdjEL
+        MAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG
+        cmFuY2lzY28xGTAXBgNVBAoTEG9yZzEuZXhhbXBsZS5jb20xHzAdBgNVBAMTFnRs
+        c2NhLm9yZzEuZXhhbXBsZS5jb20wHhcNMjAxMTE0MTE1MzAwWhcNMzAxMTEyMTE1
+        MzAwWjB2MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UE
+        BxMNU2FuIEZyYW5jaXNjbzEZMBcGA1UEChMQb3JnMS5leGFtcGxlLmNvbTEfMB0G
+        A1UEAxMWdGxzY2Eub3JnMS5leGFtcGxlLmNvbTBZMBMGByqGSM49AgEGCCqGSM49
+        AwEHA0IABHnZM772tEURqd/iQ8q9GvduyeWixMhEnO3Zsa/7725z975GwesayNO+
+        Lj8xK24QaiqzZyjR87cW+bVhKcbs5vyjbTBrMA4GA1UdDwEB/wQEAwIBpjAdBgNV
+        HSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwDwYDVR0TAQH/BAUwAwEB/zApBgNV
+        HQ4EIgQgpaPJ/fmdhz802/2q7Y5JK+ksa7JE7E+ZfUXP+5ScC1swCgYIKoZIzj0E
+        AwIDSAAwRQIhAJGFFLkft5jcZ2yXA9i9utTArruqyZBdQGNiIrcgkuvRAiAZt844
+        YAzV4bX9b34UbLOUeBiB/J+jeXG6nCjaqkRIHw==
+        -----END CERTIFICATE-----
+    grpcOptions:
+      ssl-target-name-override: peer0.org1.example.com
+      hostnameOverride: peer0.org1.example.com
+
+  peer1.org1.example.com:
+    url: grpcs://localhost:8051
+    tlsCACerts:
+      pem: |
+        -----BEGIN CERTIFICATE-----
+        MIICWDCCAf6gAwIBAgIRAMKwdRHf6fLJNbuMGI6d2AEwCgYIKoZIzj0EAwIwdjEL
+        MAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG
+        cmFuY2lzY28xGTAXBgNVBAoTEG9yZzEuZXhhbXBsZS5jb20xHzAdBgNVBAMTFnRs
+        c2NhLm9yZzEuZXhhbXBsZS5jb20wHhcNMjAxMTE0MTE1MzAwWhcNMzAxMTEyMTE1
+        MzAwWjB2MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UE
+        BxMNU2FuIEZyYW5jaXNjbzEZMBcGA1UEChMQb3JnMS5leGFtcGxlLmNvbTEfMB0G
+        A1UEAxMWdGxzY2Eub3JnMS5leGFtcGxlLmNvbTBZMBMGByqGSM49AgEGCCqGSM49
+        AwEHA0IABHnZM772tEURqd/iQ8q9GvduyeWixMhEnO3Zsa/7725z975GwesayNO+
+        Lj8xK24QaiqzZyjR87cW+bVhKcbs5vyjbTBrMA4GA1UdDwEB/wQEAwIBpjAdBgNV
+        HSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwDwYDVR0TAQH/BAUwAwEB/zApBgNV
+        HQ4EIgQgpaPJ/fmdhz802/2q7Y5JK+ksa7JE7E+ZfUXP+5ScC1swCgYIKoZIzj0E
+        AwIDSAAwRQIhAJGFFLkft5jcZ2yXA9i9utTArruqyZBdQGNiIrcgkuvRAiAZt844
+        YAzV4bX9b34UbLOUeBiB/J+jeXG6nCjaqkRIHw==
+        -----END CERTIFICATE-----
+    grpcOptions:
+      ssl-target-name-override: peer1.org1.example.com
+      hostnameOverride: peer1.org1.example.com
+
+  peer0.org2.example.com:
+    url: grpcs://localhost:9051
+    tlsCACerts:
+      pem: |
+        -----BEGIN CERTIFICATE-----
+        MIICWDCCAf6gAwIBAgIRAOATjvLlfVD3ye5dPf4trvwwCgYIKoZIzj0EAwIwdjEL
+        MAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG
+        cmFuY2lzY28xGTAXBgNVBAoTEG9yZzIuZXhhbXBsZS5jb20xHzAdBgNVBAMTFnRs
+        c2NhLm9yZzIuZXhhbXBsZS5jb20wHhcNMjAxMTE0MTE1MzAwWhcNMzAxMTEyMTE1
+        MzAwWjB2MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UE
+        BxMNU2FuIEZyYW5jaXNjbzEZMBcGA1UEChMQb3JnMi5leGFtcGxlLmNvbTEfMB0G
+        A1UEAxMWdGxzY2Eub3JnMi5leGFtcGxlLmNvbTBZMBMGByqGSM49AgEGCCqGSM49
+        AwEHA0IABEagPYNcUPEJ3ujvie+9Ph/Ysvewab4JVxw4dAEaEIJv1kjSwPLanX4g
+        C+L+XwHLyEWqup2Rgq4NGL+L9X/mI0ijbTBrMA4GA1UdDwEB/wQEAwIBpjAdBgNV
+        HSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwDwYDVR0TAQH/BAUwAwEB/zApBgNV
+        HQ4EIgQg25BknB/DTarXCXp1c6bz9bkh5QC/1IRoIXoiKNxb280wCgYIKoZIzj0E
+        AwIDSAAwRQIhANRXqTAWxYCrJv44F6DZFTbGVHZMq8xExOJgP4jaXItLAiAGfuiM
+        4mBs+wnwSINxx5j1nfG2J+x84Fw10FVlPYibyA==
+        -----END CERTIFICATE-----
+    grpcOptions:
+      ssl-target-name-override: peer0.org2.example.com
+      hostnameOverride: peer0.org2.example.com
+
+  peer1.org2.example.com:
+    url: grpcs://localhost:10051
+    tlsCACerts:
+      pem: |
+        -----BEGIN CERTIFICATE-----
+        MIICWDCCAf6gAwIBAgIRAOATjvLlfVD3ye5dPf4trvwwCgYIKoZIzj0EAwIwdjEL
+        MAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG
+        cmFuY2lzY28xGTAXBgNVBAoTEG9yZzIuZXhhbXBsZS5jb20xHzAdBgNVBAMTFnRs
+        c2NhLm9yZzIuZXhhbXBsZS5jb20wHhcNMjAxMTE0MTE1MzAwWhcNMzAxMTEyMTE1
+        MzAwWjB2MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UE
+        BxMNU2FuIEZyYW5jaXNjbzEZMBcGA1UEChMQb3JnMi5leGFtcGxlLmNvbTEfMB0G
+        A1UEAxMWdGxzY2Eub3JnMi5leGFtcGxlLmNvbTBZMBMGByqGSM49AgEGCCqGSM49
+        AwEHA0IABEagPYNcUPEJ3ujvie+9Ph/Ysvewab4JVxw4dAEaEIJv1kjSwPLanX4g
+        C+L+XwHLyEWqup2Rgq4NGL+L9X/mI0ijbTBrMA4GA1UdDwEB/wQEAwIBpjAdBgNV
+        HSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwDwYDVR0TAQH/BAUwAwEB/zApBgNV
+        HQ4EIgQg25BknB/DTarXCXp1c6bz9bkh5QC/1IRoIXoiKNxb280wCgYIKoZIzj0E
+        AwIDSAAwRQIhANRXqTAWxYCrJv44F6DZFTbGVHZMq8xExOJgP4jaXItLAiAGfuiM
+        4mBs+wnwSINxx5j1nfG2J+x84Fw10FVlPYibyA==
+        -----END CERTIFICATE-----
+    eventUrl: grpcs://localhost:11058
+    grpcOptions:
+      ssl-target-name-override: peer1.org2.example.com
+      hostnameOverride: peer1.org2.example.com
+
+certificateAuthorities:
+  ca-org1:
+    url: https://localhost:7054
+    httpOptions:
+      verify: false
+    tlsCACerts:
+      pem: |
+        -----BEGIN CERTIFICATE-----
+        MIICUjCCAfigAwIBAgIRALP1mYAxTKCsJ26gBOhj/dIwCgYIKoZIzj0EAwIwczEL
+        MAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG
+        cmFuY2lzY28xGTAXBgNVBAoTEG9yZzEuZXhhbXBsZS5jb20xHDAaBgNVBAMTE2Nh
+        Lm9yZzEuZXhhbXBsZS5jb20wHhcNMjAxMTE0MTE1MzAwWhcNMzAxMTEyMTE1MzAw
+        WjBzMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMN
+        U2FuIEZyYW5jaXNjbzEZMBcGA1UEChMQb3JnMS5leGFtcGxlLmNvbTEcMBoGA1UE
+        AxMTY2Eub3JnMS5leGFtcGxlLmNvbTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IA
+        BDE2CSAk7B65lizWgwZjaxV/eGw5Qm8fLMfgHb9CK7RmAeI208JQ/jjgK62fafPM
+        LIlH/XUz6qog8D/Tf6rHUa+jbTBrMA4GA1UdDwEB/wQEAwIBpjAdBgNVHSUEFjAU
+        BggrBgEFBQcDAgYIKwYBBQUHAwEwDwYDVR0TAQH/BAUwAwEB/zApBgNVHQ4EIgQg
+        R2GhVqPSp2v9JjC4xj/nRqeYkRL5gug87JNTltuslJIwCgYIKoZIzj0EAwIDSAAw
+        RQIhAKIQx/4HcvNs0v/ztv4g5mzv0dKAXMmUylIw7QNKb/BLAiBnFZ5ro/d0shSs
+        jH7U0IBINdvr02Xcl9t1RXQ1aCitiA==
+        -----END CERTIFICATE-----
+
+    registrar:
+      - enrollId: admin
+        enrollSecret: adminpw
+    caName: ca-org1
+
+  ca-org2:
+    url: https://localhost:8054
+    httpOptions:
+      verify: false
+    tlsCACerts:
+      pem: |
+        -----BEGIN CERTIFICATE-----
+        MIICUTCCAfigAwIBAgIRAKC3N+vI348ebOpkQEsy65YwCgYIKoZIzj0EAwIwczEL
+        MAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG
+        cmFuY2lzY28xGTAXBgNVBAoTEG9yZzIuZXhhbXBsZS5jb20xHDAaBgNVBAMTE2Nh
+        Lm9yZzIuZXhhbXBsZS5jb20wHhcNMjAxMTE0MTE1MzAwWhcNMzAxMTEyMTE1MzAw
+        WjBzMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMN
+        U2FuIEZyYW5jaXNjbzEZMBcGA1UEChMQb3JnMi5leGFtcGxlLmNvbTEcMBoGA1UE
+        AxMTY2Eub3JnMi5leGFtcGxlLmNvbTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IA
+        BKga2MIrbOnsyKzvseoAnPX/vPN/niWez1RKiNbBQ4VxJRJd2BEyo9ikNwDP7cl3
+        +pwYenbV/e4Hrt0DZy1J+kWjbTBrMA4GA1UdDwEB/wQEAwIBpjAdBgNVHSUEFjAU
+        BggrBgEFBQcDAgYIKwYBBQUHAwEwDwYDVR0TAQH/BAUwAwEB/zApBgNVHQ4EIgQg
+        VOBidHTShh/oDsEgrC9gQRnfb+rix4xi2WccTE/IiCMwCgYIKoZIzj0EAwIDRwAw
+        RAIgFPuJsC7TqY2eMtZX+lRXPUHcIn7qTTMlURdZVKb/KvgCIEnaDy4FMQNqRGd2
+        fzwHJvHKGoMkPHGsugWaNfCgUoAz
+        -----END CERTIFICATE-----
+
+    registrar:
+      - enrollId: admin
+        enrollSecret: adminpw
+    caName: ca-org2
