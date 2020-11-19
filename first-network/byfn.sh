@@ -278,7 +278,7 @@ function networkDown() {
   # stop org3 containers also in addition to org1 and org2, in case we were running sample to add org3
   # stop kafka and zookeeper containers in case we're running with kafka consensus-type
   docker-compose -f $COMPOSE_FILE -f $COMPOSE_FILE_COUCH -f $COMPOSE_FILE_KAFKA -f $COMPOSE_FILE_RAFT2 -f $COMPOSE_FILE_CA -f $COMPOSE_FILE_ORG3 down --volumes --remove-orphans
-rm ../balance-transfer/artifacts/channel/* -rf
+  rm ../blockchain-api/artifacts/channel/* -rf
   # Don't remove the generated artifacts -- note, the ledgers are always removed
   if [ "$MODE" != "restart" ]; then
     # Bring down the network, deleting the volumes
@@ -336,10 +336,10 @@ function generatePrivateKey(){
 
   cp crypto-config/peerOrganizations/org1.example.com/ca/*_sk ./crypto-config/peerOrganizations/org1.example.com/ca/CA_KEY_sk
   cp crypto-config/peerOrganizations/org2.example.com/ca/*_sk ./crypto-config/peerOrganizations/org2.example.com/ca/CA_KEY_sk
-  cp crypto-config/ ../balance-transfer/artifacts/channel/ -R
-  cp configtx.yaml ../balance-transfer/artifacts/channel/configtx.yaml
-  cp crypto-config.yaml ../balance-transfer/artifacts/channel/crypto-config.yaml
-  cp channel-artifacts/* ../balance-transfer/artifacts/channel/ -R
+  cp crypto-config/ ../blockchain-api/artifacts/channel/ -R
+  cp configtx.yaml ../blockchain-api/artifacts/channel/configtx.yaml
+  cp crypto-config.yaml ../blockchain-api/artifacts/channel/crypto-config.yaml
+  cp channel-artifacts/* ../blockchain-api/artifacts/channel/ -R
 }
 
 # We will use the cryptogen tool to generate the cryptographic material (x509 certs)

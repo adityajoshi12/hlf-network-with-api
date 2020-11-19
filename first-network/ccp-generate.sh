@@ -44,3 +44,5 @@ CA2PEM=crypto-config/peerOrganizations/org2.example.com/ca/ca.org2.example.com-c
 ORDERERPEM=crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/tls/ca.crt
 echo "$(yaml_ccp $ORG1PEERPEM $CA1PEM $ORG2PEERPEM $CA2PEM $ORDERERPEM)" > connection-profile.yaml
 echo "$(json_ccp $ORG1PEERPEM $CA1PEM $ORG2PEERPEM $CA2PEM $ORDERERPEM)" > connection-profile.json
+
+cp connection-profile.yaml ../blockchain-api/artifacts/network-config.yaml
