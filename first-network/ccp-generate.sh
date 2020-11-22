@@ -16,7 +16,7 @@ function json_ccp {
         -e "s#\${ORG2PEERPEM}#$PP2#" \
         -e "s#\${CA2PEM}#$CP2#" \
         -e "s#\${ORDERERPEM}#$ORDERERPEM#" \
-        connection-profile-template.json
+        template-connection-profile.json
 }
 
 function yaml_ccp {
@@ -31,7 +31,7 @@ function yaml_ccp {
         -e "s#\${ORG2PEERPEM}#$PP2#" \
         -e "s#\${CA2PEM}#$CP2#" \
         -e "s#\${ORDERERPEM}#$ORDERERPEM#" \
-        connection-profile-template.yaml | sed -e $'s/\\\\n/\\\n        /g'
+        template-connection-profile.yaml | sed -e $'s/\\\\n/\\\n        /g'
 }
 
 

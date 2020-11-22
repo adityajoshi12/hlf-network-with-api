@@ -1,0 +1,577 @@
+[Req ID: non-http-log]: 2020-11-19 14:43:12 error [framework/app.js]: uncaughtException: Cannot find module 'uuid/v4'
+Error: Cannot find module 'uuid/v4'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/app.js:4:12)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+[Req ID: non-http-log]: 2020-11-19 14:43:26 error [framework/app.js]: uncaughtException: Cannot find module 'uuid/v4'
+Error: Cannot find module 'uuid/v4'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/app.js:4:12)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+[Req ID: non-http-log]: 2020-11-19 14:43:58 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 14:43:58 error [framework/app.js]: uncaughtException: chaincodeManagementRoutes is not defined
+ReferenceError: chaincodeManagementRoutes is not defined
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/app.js:99:34)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+[Req ID: non-http-log]: 2020-11-19 14:43:58 info [framework/app.js]: MongoDB connection unsuccessful, retry after 5 seconds.
+[Req ID: non-http-log]: 2020-11-19 14:44:03 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 14:44:03 info [framework/app.js]: MongoDB connection unsuccessful, retry after 5 seconds.
+[Req ID: non-http-log]: 2020-11-19 14:44:08 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 14:44:08 info [framework/app.js]: MongoDB connection unsuccessful, retry after 5 seconds.
+[Req ID: non-http-log]: 2020-11-19 14:44:13 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 14:44:13 info [framework/app.js]: MongoDB connection unsuccessful, retry after 5 seconds.
+[Req ID: non-http-log]: 2020-11-19 14:44:18 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 14:44:18 info [framework/app.js]: MongoDB connection unsuccessful, retry after 5 seconds.
+[Req ID: non-http-log]: 2020-11-19 14:44:23 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 14:44:23 info [framework/app.js]: MongoDB connection unsuccessful, retry after 5 seconds.
+[Req ID: non-http-log]: 2020-11-19 14:44:28 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 14:44:28 info [framework/app.js]: MongoDB connection unsuccessful, retry after 5 seconds.
+[Req ID: non-http-log]: 2020-11-19 14:45:27 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 14:45:27 error [framework/app.js]: uncaughtException: chaincodeManagementRoutes is not defined
+ReferenceError: chaincodeManagementRoutes is not defined
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/app.js:99:34)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+[Req ID: non-http-log]: 2020-11-19 14:45:27 info [framework/app.js]: MongoDB connection unsuccessful, retry after 5 seconds.
+[Req ID: non-http-log]: 2020-11-19 14:46:39 error [framework/app.js]: uncaughtException: Cannot find module '../../../lib/response'
+Error: Cannot find module '../../../lib/response'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/routes/api/fabric/chaincodeManagement.js:3:14)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/app.js:11:35)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+[Req ID: non-http-log]: 2020-11-19 14:47:47 error [framework/app.js]: uncaughtException: Cannot find module '../../../lib/response'
+Error: Cannot find module '../../../lib/response'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/routes/api/fabric/chaincodeManagement.js:3:14)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/app.js:11:35)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+[Req ID: non-http-log]: 2020-11-19 14:48:36 error [framework/app.js]: uncaughtException: Cannot find module '../../../lib/fabric/chaincode'
+Error: Cannot find module '../../../lib/fabric/chaincode'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/routes/api/fabric/chaincodeManagement.js:5:18)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/app.js:11:35)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+[Req ID: non-http-log]: 2020-11-19 14:49:44 error [framework/app.js]: uncaughtException: Cannot find module '../../../lib/fabric/chaincode'
+Error: Cannot find module '../../../lib/fabric/chaincode'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/routes/api/fabric/chaincodeManagement.js:5:18)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/app.js:11:35)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+[Req ID: non-http-log]: 2020-11-19 14:50:26 error [framework/app.js]: uncaughtException: Cannot find module '../../../lib/fabric/chaincode'
+Error: Cannot find module '../../../lib/fabric/chaincode'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/routes/api/fabric/chaincodeManagement.js:5:18)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/app.js:11:35)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+[Req ID: non-http-log]: 2020-11-19 14:52:36 error [framework/app.js]: uncaughtException: Cannot find module 'axios'
+Error: Cannot find module 'axios'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/config/axios.js:1:15)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/fabric/chaincode.js:1:15)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+[Req ID: non-http-log]: 2020-11-19 14:54:28 error [framework/app.js]: uncaughtException: Cannot find module 'bcryptjs'
+Error: Cannot find module 'bcryptjs'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/utils/utilFunc.js:1:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/fabric/chaincode.js:6:26)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+[Req ID: non-http-log]: 2020-11-19 14:54:28 error [fabric/chaincode.js]: uncaughtException: Cannot find module 'bcryptjs'
+Error: Cannot find module 'bcryptjs'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/utils/utilFunc.js:1:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/fabric/chaincode.js:6:26)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+[Req ID: non-http-log]: 2020-11-19 14:55:05 error [framework/app.js]: uncaughtException: Cannot find module 'jsonwebtoken'
+Error: Cannot find module 'jsonwebtoken'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/middleware/index.js:1:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/routes/api/fabric/chaincodeManagement.js:6:20)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+[Req ID: non-http-log]: 2020-11-19 14:55:05 error [fabric/chaincode.js]: uncaughtException: Cannot find module 'jsonwebtoken'
+Error: Cannot find module 'jsonwebtoken'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/middleware/index.js:1:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/routes/api/fabric/chaincodeManagement.js:6:20)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+[Req ID: non-http-log]: 2020-11-19 14:55:38 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 14:55:38 info [framework/app.js]: MongoDB is connected
+[Req ID: non-http-log]: 2020-11-19 14:58:45 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 14:58:45 info [framework/app.js]: MongoDB is connected
+[Req ID: non-http-log]: 2020-11-19 15:03:13 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 15:03:13 info [framework/app.js]: MongoDB is connected
+[Req ID: non-http-log]: 2020-11-19 15:04:41 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 15:04:41 info [framework/app.js]: MongoDB is connected
+[Req ID: non-http-log]: 2020-11-19 15:14:54 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 15:14:54 info [framework/app.js]: MongoDB is connected
+[Req ID: 743595a5-f2ba-4880-8c26-773b15a2ebdf]: 2020-11-19 15:14:58 info [fabric/chaincodeManagement.js]: End point: POST /api/fabric/chaincode/
+[Req ID: non-http-log]: 2020-11-19 15:20:09 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 15:20:09 info [framework/app.js]: MongoDB is connected
+[Req ID: 3d382600-0ad6-47a7-803d-aa4c61cfdf7f]: 2020-11-19 15:20:14 info [fabric/chaincodeManagement.js]: End point: POST /api/fabric/chaincode/
+[Req ID: non-http-log]: 2020-11-19 16:32:08 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 16:32:08 info [framework/app.js]: MongoDB is connected
+[Req ID: non-http-log]: 2020-11-19 16:42:55 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 16:42:55 info [framework/app.js]: MongoDB is connected
+[Req ID: non-http-log]: 2020-11-19 16:44:07 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 16:44:07 error [fabric/chaincode.js]: uncaughtException: Duplicate parameter name not allowed in this context
+/home/innominds/fabric-samples/framework/cc.js:3
+CC.createCC = async (res, res) => {
+                             ^
+
+SyntaxError: Duplicate parameter name not allowed in this context
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/app.js:107:12)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+[Req ID: non-http-log]: 2020-11-19 16:44:07 error [fabric/chaincodeManagement.js]: uncaughtException: Duplicate parameter name not allowed in this context
+/home/innominds/fabric-samples/framework/cc.js:3
+CC.createCC = async (res, res) => {
+                             ^
+
+SyntaxError: Duplicate parameter name not allowed in this context
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/app.js:107:12)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+[Req ID: non-http-log]: 2020-11-19 16:44:07 error [framework/app.js]: uncaughtException: Duplicate parameter name not allowed in this context
+/home/innominds/fabric-samples/framework/cc.js:3
+CC.createCC = async (res, res) => {
+                             ^
+
+SyntaxError: Duplicate parameter name not allowed in this context
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/app.js:107:12)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+[Req ID: non-http-log]: 2020-11-19 16:44:07 info [framework/app.js]: MongoDB is connected
+[Req ID: non-http-log]: 2020-11-19 16:44:42 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 16:44:42 error [fabric/chaincode.js]: uncaughtException: Router.use() requires a middleware function but got a undefined
+TypeError: Router.use() requires a middleware function but got a undefined
+    at Function.use (/home/innominds/fabric-samples/framework/node_modules/express/lib/router/index.js:458:13)
+    at Function.<anonymous> (/home/innominds/fabric-samples/framework/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/innominds/fabric-samples/framework/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/app.js:108:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+[Req ID: non-http-log]: 2020-11-19 16:44:42 error [fabric/chaincodeManagement.js]: uncaughtException: Router.use() requires a middleware function but got a undefined
+TypeError: Router.use() requires a middleware function but got a undefined
+    at Function.use (/home/innominds/fabric-samples/framework/node_modules/express/lib/router/index.js:458:13)
+    at Function.<anonymous> (/home/innominds/fabric-samples/framework/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/innominds/fabric-samples/framework/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/app.js:108:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+[Req ID: non-http-log]: 2020-11-19 16:44:42 error [framework/app.js]: uncaughtException: Router.use() requires a middleware function but got a undefined
+TypeError: Router.use() requires a middleware function but got a undefined
+    at Function.use (/home/innominds/fabric-samples/framework/node_modules/express/lib/router/index.js:458:13)
+    at Function.<anonymous> (/home/innominds/fabric-samples/framework/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/innominds/fabric-samples/framework/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/app.js:108:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+[Req ID: non-http-log]: 2020-11-19 16:44:42 info [framework/app.js]: MongoDB is connected
+[Req ID: non-http-log]: 2020-11-19 16:45:19 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 16:45:19 info [framework/app.js]: MongoDB is connected
+[Req ID: non-http-log]: 2020-11-19 16:45:57 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 16:45:57 info [framework/app.js]: MongoDB is connected
+[Req ID: non-http-log]: 2020-11-19 16:47:03 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 16:47:03 error [fabric/chaincode.js]: uncaughtException: upload is not defined
+ReferenceError: upload is not defined
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/app.js:108:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+[Req ID: non-http-log]: 2020-11-19 16:47:03 error [fabric/chaincodeManagement.js]: uncaughtException: upload is not defined
+ReferenceError: upload is not defined
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/app.js:108:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+[Req ID: non-http-log]: 2020-11-19 16:47:03 error [framework/app.js]: uncaughtException: upload is not defined
+ReferenceError: upload is not defined
+    at Object.<anonymous> (/home/innominds/fabric-samples/framework/app.js:108:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+[Req ID: non-http-log]: 2020-11-19 16:47:03 info [framework/app.js]: MongoDB is connected
+[Req ID: non-http-log]: 2020-11-19 16:51:41 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 16:51:42 info [framework/app.js]: MongoDB is connected
+[Req ID: a708f877-c5c3-496d-a9a8-1ccd01107199]: 2020-11-19 16:51:51 error [framework/app.js]: uncaughtException: ENOENT: no such file or directory, mkdir 'undefined/src'
+Error: ENOENT: no such file or directory, mkdir 'undefined/src'
+    at Object.mkdirSync (fs.js:757:3)
+    at DiskStorage.destination [as getDestination] (/home/innominds/fabric-samples/framework/app.js:118:12)
+    at DiskStorage._handleFile (/home/innominds/fabric-samples/framework/node_modules/multer/storage/disk.js:31:8)
+    at /home/innominds/fabric-samples/framework/node_modules/multer/lib/make-middleware.js:144:17
+    at allowAll (/home/innominds/fabric-samples/framework/node_modules/multer/index.js:8:3)
+    at wrappedFileFilter (/home/innominds/fabric-samples/framework/node_modules/multer/index.js:44:7)
+    at Busboy.<anonymous> (/home/innominds/fabric-samples/framework/node_modules/multer/lib/make-middleware.js:114:7)
+    at Busboy.emit (events.js:198:13)
+    at Busboy.emit (/home/innominds/fabric-samples/framework/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/home/innominds/fabric-samples/framework/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:198:13)
+    at HeaderParser.<anonymous> (/home/innominds/fabric-samples/framework/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:198:13)
+    at HeaderParser._finish (/home/innominds/fabric-samples/framework/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/home/innominds/fabric-samples/framework/node_modules/dicer/lib/HeaderParser.js:40:12)
+    at SBMH.emit (events.js:198:13)
+[Req ID: a708f877-c5c3-496d-a9a8-1ccd01107199]: 2020-11-19 16:51:51 error [fabric/chaincode.js]: uncaughtException: ENOENT: no such file or directory, mkdir 'undefined/src'
+Error: ENOENT: no such file or directory, mkdir 'undefined/src'
+    at Object.mkdirSync (fs.js:757:3)
+    at DiskStorage.destination [as getDestination] (/home/innominds/fabric-samples/framework/app.js:118:12)
+    at DiskStorage._handleFile (/home/innominds/fabric-samples/framework/node_modules/multer/storage/disk.js:31:8)
+    at /home/innominds/fabric-samples/framework/node_modules/multer/lib/make-middleware.js:144:17
+    at allowAll (/home/innominds/fabric-samples/framework/node_modules/multer/index.js:8:3)
+    at wrappedFileFilter (/home/innominds/fabric-samples/framework/node_modules/multer/index.js:44:7)
+    at Busboy.<anonymous> (/home/innominds/fabric-samples/framework/node_modules/multer/lib/make-middleware.js:114:7)
+    at Busboy.emit (events.js:198:13)
+    at Busboy.emit (/home/innominds/fabric-samples/framework/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/home/innominds/fabric-samples/framework/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:198:13)
+    at HeaderParser.<anonymous> (/home/innominds/fabric-samples/framework/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:198:13)
+    at HeaderParser._finish (/home/innominds/fabric-samples/framework/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/home/innominds/fabric-samples/framework/node_modules/dicer/lib/HeaderParser.js:40:12)
+    at SBMH.emit (events.js:198:13)
+[Req ID: a708f877-c5c3-496d-a9a8-1ccd01107199]: 2020-11-19 16:51:51 error [fabric/chaincodeManagement.js]: uncaughtException: ENOENT: no such file or directory, mkdir 'undefined/src'
+Error: ENOENT: no such file or directory, mkdir 'undefined/src'
+    at Object.mkdirSync (fs.js:757:3)
+    at DiskStorage.destination [as getDestination] (/home/innominds/fabric-samples/framework/app.js:118:12)
+    at DiskStorage._handleFile (/home/innominds/fabric-samples/framework/node_modules/multer/storage/disk.js:31:8)
+    at /home/innominds/fabric-samples/framework/node_modules/multer/lib/make-middleware.js:144:17
+    at allowAll (/home/innominds/fabric-samples/framework/node_modules/multer/index.js:8:3)
+    at wrappedFileFilter (/home/innominds/fabric-samples/framework/node_modules/multer/index.js:44:7)
+    at Busboy.<anonymous> (/home/innominds/fabric-samples/framework/node_modules/multer/lib/make-middleware.js:114:7)
+    at Busboy.emit (events.js:198:13)
+    at Busboy.emit (/home/innominds/fabric-samples/framework/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/home/innominds/fabric-samples/framework/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:198:13)
+    at HeaderParser.<anonymous> (/home/innominds/fabric-samples/framework/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:198:13)
+    at HeaderParser._finish (/home/innominds/fabric-samples/framework/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/home/innominds/fabric-samples/framework/node_modules/dicer/lib/HeaderParser.js:40:12)
+    at SBMH.emit (events.js:198:13)
+[Req ID: non-http-log]: 2020-11-19 16:54:09 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 16:54:09 info [framework/app.js]: MongoDB is connected
+[Req ID: non-http-log]: 2020-11-19 16:55:47 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 16:55:47 info [framework/app.js]: MongoDB is connected
+[Req ID: non-http-log]: 2020-11-19 16:57:26 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 16:57:26 info [framework/app.js]: MongoDB is connected
+[Req ID: non-http-log]: 2020-11-19 17:09:20 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 17:09:20 info [framework/app.js]: MongoDB is connected
+[Req ID: non-http-log]: 2020-11-19 17:12:13 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 17:12:13 info [framework/app.js]: MongoDB is connected
+[Req ID: non-http-log]: 2020-11-19 17:13:48 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 17:13:48 info [framework/app.js]: MongoDB is connected
+[Req ID: non-http-log]: 2020-11-19 17:16:24 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 17:16:24 info [framework/app.js]: MongoDB is connected
+[Req ID: non-http-log]: 2020-11-19 17:17:13 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 17:17:13 info [framework/app.js]: MongoDB is connected
+[Req ID: non-http-log]: 2020-11-19 17:19:57 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 17:19:57 info [framework/app.js]: MongoDB is connected
+[Req ID: 63d33292-141e-4f29-a78f-426c97c5e7b1]: 2020-11-19 17:20:01 info [framework/app.js]: /home/innominds/fabric-samples/framework/src/github.com
+[Req ID: non-http-log]: 2020-11-19 17:21:09 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 17:21:09 info [framework/app.js]: MongoDB is connected
+[Req ID: 8262299b-5854-43b7-b0b0-0c2576845271]: 2020-11-19 17:21:13 info [framework/app.js]: /home/innominds/fabric-samples/framework/src/github.com
+[Req ID: 13474228-4ddc-4a42-b5b6-71b24e43bee0]: 2020-11-19 17:21:36 info [framework/app.js]: /home/innominds/fabric-samples/framework/src/github.com
+[Req ID: non-http-log]: 2020-11-19 17:22:45 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 17:22:45 info [framework/app.js]: MongoDB is connected
+[Req ID: add86078-2603-4a62-b297-27952cc04ba4]: 2020-11-19 17:22:49 error [framework/app.js]: uncaughtException: Cannot convert object to primitive value
+TypeError: Cannot convert object to primitive value
+    at Format.module.exports.info [as transform] (/home/innominds/fabric-samples/framework/node_modules/logform/simple.js:27:54)
+    at Format.info [as transform] (/home/innominds/fabric-samples/framework/node_modules/logform/combine.js:20:24)
+    at DailyRotateFile._write (/home/innominds/fabric-samples/framework/node_modules/winston-transport/index.js:91:33)
+    at doWrite (/home/innominds/fabric-samples/framework/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/home/innominds/fabric-samples/framework/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at DailyRotateFile.Writable.write (/home/innominds/fabric-samples/framework/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/home/innominds/fabric-samples/framework/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:203:15)
+    at addChunk (/home/innominds/fabric-samples/framework/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/home/innominds/fabric-samples/framework/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (/home/innominds/fabric-samples/framework/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (/home/innominds/fabric-samples/framework/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:139:32)
+    at DerivedLogger._transform (/home/innominds/fabric-samples/framework/node_modules/winston/lib/winston/logger.js:305:12)
+    at DerivedLogger.Transform._read (/home/innominds/fabric-samples/framework/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (/home/innominds/fabric-samples/framework/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/home/innominds/fabric-samples/framework/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+[Req ID: add86078-2603-4a62-b297-27952cc04ba4]: 2020-11-19 17:22:49 error [fabric/chaincode.js]: uncaughtException: Cannot convert object to primitive value
+TypeError: Cannot convert object to primitive value
+    at Format.module.exports.info [as transform] (/home/innominds/fabric-samples/framework/node_modules/logform/simple.js:27:54)
+    at Format.info [as transform] (/home/innominds/fabric-samples/framework/node_modules/logform/combine.js:20:24)
+    at DailyRotateFile._write (/home/innominds/fabric-samples/framework/node_modules/winston-transport/index.js:91:33)
+    at doWrite (/home/innominds/fabric-samples/framework/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/home/innominds/fabric-samples/framework/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at DailyRotateFile.Writable.write (/home/innominds/fabric-samples/framework/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/home/innominds/fabric-samples/framework/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:203:15)
+    at addChunk (/home/innominds/fabric-samples/framework/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/home/innominds/fabric-samples/framework/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (/home/innominds/fabric-samples/framework/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (/home/innominds/fabric-samples/framework/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:139:32)
+    at DerivedLogger._transform (/home/innominds/fabric-samples/framework/node_modules/winston/lib/winston/logger.js:305:12)
+    at DerivedLogger.Transform._read (/home/innominds/fabric-samples/framework/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (/home/innominds/fabric-samples/framework/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/home/innominds/fabric-samples/framework/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+[Req ID: add86078-2603-4a62-b297-27952cc04ba4]: 2020-11-19 17:22:49 error [fabric/chaincodeManagement.js]: uncaughtException: Cannot convert object to primitive value
+TypeError: Cannot convert object to primitive value
+    at Format.module.exports.info [as transform] (/home/innominds/fabric-samples/framework/node_modules/logform/simple.js:27:54)
+    at Format.info [as transform] (/home/innominds/fabric-samples/framework/node_modules/logform/combine.js:20:24)
+    at DailyRotateFile._write (/home/innominds/fabric-samples/framework/node_modules/winston-transport/index.js:91:33)
+    at doWrite (/home/innominds/fabric-samples/framework/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/home/innominds/fabric-samples/framework/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at DailyRotateFile.Writable.write (/home/innominds/fabric-samples/framework/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/home/innominds/fabric-samples/framework/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:203:15)
+    at addChunk (/home/innominds/fabric-samples/framework/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/home/innominds/fabric-samples/framework/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (/home/innominds/fabric-samples/framework/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (/home/innominds/fabric-samples/framework/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:139:32)
+    at DerivedLogger._transform (/home/innominds/fabric-samples/framework/node_modules/winston/lib/winston/logger.js:305:12)
+    at DerivedLogger.Transform._read (/home/innominds/fabric-samples/framework/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (/home/innominds/fabric-samples/framework/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/home/innominds/fabric-samples/framework/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+[Req ID: non-http-log]: 2020-11-19 17:23:17 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 17:23:17 info [framework/app.js]: MongoDB is connected
+[Req ID: non-http-log]: 2020-11-19 17:23:53 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 17:23:53 info [framework/app.js]: MongoDB is connected
+[Req ID: non-http-log]: 2020-11-19 17:24:15 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 17:24:15 info [framework/app.js]: MongoDB is connected
+[Req ID: non-http-log]: 2020-11-19 17:24:46 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 17:24:46 info [framework/app.js]: MongoDB is connected
+[Req ID: non-http-log]: 2020-11-19 17:38:26 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 17:38:26 info [framework/app.js]: MongoDB is connected
+[Req ID: non-http-log]: 2020-11-19 17:43:50 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 17:43:50 info [framework/app.js]: MongoDB is connected
+[Req ID: non-http-log]: 2020-11-19 17:44:06 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 17:44:07 info [framework/app.js]: MongoDB is connected
+[Req ID: non-http-log]: 2020-11-19 17:45:11 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 17:45:11 info [framework/app.js]: MongoDB is connected
+[Req ID: non-http-log]: 2020-11-19 17:46:12 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 17:46:12 info [framework/app.js]: MongoDB is connected
+[Req ID: non-http-log]: 2020-11-19 17:47:19 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 17:47:19 info [framework/app.js]: MongoDB is connected
+[Req ID: non-http-log]: 2020-11-19 17:51:14 info [framework/app.js]: MongoDB connection with retry
+[Req ID: non-http-log]: 2020-11-19 17:51:15 info [framework/app.js]: MongoDB is connected
